@@ -1,0 +1,44 @@
+{
+  "id": "680138514352046169",
+  "type": 0,
+  "content": "https://www.twitch.tv/riste",
+  "channel_id": "679465032324481034",
+  "author": {
+    "id": "237952780772442114",
+    "username": "Days",
+    "avatar": "0ccbed786616d57ac40f7db82ba043d0",
+    "discriminator": "1403"
+  },
+  "attachments": [],
+  "embeds": [
+    {
+      "type": "video",
+      "url": "https://www.twitch.tv/riste",
+      "title": "riste - Twitch",
+      "description": "Let's pick ourselves up. Garen buffs are here, and so is the tankpocalypse.",
+      "provider": {
+        "name": "Twitch",
+        "url": null
+      },
+      "thumbnail": {
+        "url": "https://static-cdn.jtvnw.net/jtv_user_pictures/8ec5846e-0dba-4504-840f-cb92b760aa85-profile_image-300x300.png",
+        "proxy_url": "https://images-ext-2.discordapp.net/external/_Gc9gs7tQ8hw483bmZIgVm5YgYq5tfF_-o8gV74EpmM/https/static-cdn.jtvnw.net/jtv_user_pictures/8ec5846e-0dba-4504-840f-cb92b760aa85-profile_image-300x300.png",
+        "width": 300,
+        "height": 300
+      },
+      "video": {
+        "url": "https://player.twitch.tv/?channel=riste&player=facebook&autoplay=true",
+        "width": 620,
+        "height": 378
+      }
+    }
+  ],
+  "mentions": [],
+  "mention_roles": [],
+  "pinned": false,
+  "mention_everyone": false,
+  "tts": false,
+  "timestamp": "2020-02-20T19:47:38.184000+00:00",
+  "edited_timestamp": null,
+  "flags": 0
+}
