@@ -1,0 +1,149 @@
+.grid {
+    padding: 0%;
+}
+
+.row {
+    height: 25px;
+    padding: 0%;
+}
+
+.slider-panel {
+    width: 200px;
+    height: fit-content;
+
+    display: flex;
+}
+
+.slider {
+    display: inline-block;
+    margin:  12px;   
+}
+
+.slider-label {
+    display: inline-block;
+    margin: 5px;
+    
+    margin-top: 7px;
+}
+
+.toolbar-background {
+    height: fit-content;
+    background-color: rgb(135, 173, 242);
+}
+
+.toolbar {
+    height: fit-content;
+
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+
+    margin: auto;
+}
+
+.tile-button-panel {
+    height: fit-content;
+    width: fit-content;
+
+    margin: 20px;
+}
+
+.visual-button-panel {
+    height: max-content;
+    width: 200px;
+
+    margin: 20px;
+    
+    margin-top: auto;
+    margin-bottom: auto;
+
+    display: block;
+}
+
+.visual-button-panel button {
+    display: block;
+    width: 100%;
+    height: 30px;
+}
+
+.info-panel {
+    display: block;
+    width: 250px;
+    height: fit-content;
+    margin: 20px;
+    padding: 15px;
+
+    margin-top: auto;
+    margin-bottom: auto;
+
+    background-color: rgba(0, 0, 0, 0.15);
+    outline: 3px solid rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+
+.info-panel div {
+    text-align: left;
+}
+
+.button-row {
+    display: inline-block;
+}
+
+.wall-icon {
+    height: 80%;
+    width: 80%;
+    background-color: black;
+}
+
+.open-icon {
+    height: 80%;
+    width: 80%;
+    background-color: white;
+    display: inline-block;
+}
+
+.wall-icon {
+    height: 80%;
+    width: 80%;
+    background-color: black;
+    display: inline-block;
+}
+
+.big-weight-icon {
+    height: 80%;
+    width: 80%;
+    background-image: url('./Node/lock5.png');
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.small-weight-icon {
+    height: 80%;
+    width: 80%;
+    background-image: url('./Node/lock3.png');
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.tile-button {
+    height: 60px;
+    width:  60px;
+
+    margin: 5px;
+}
+
+.selected-tile-button {
+    height: 60px;
+    width:  60px;
+
+    margin: 5px;
+
+    background-color: dimgray;
+}
+
+.algorithm-dropdown{
+    height: max-content;
+    width: 200px;
+}

@@ -1,0 +1,88 @@
+.node {
+  width: 25px;
+  height: 25px;
+  outline: 1px solid rgb(0, 0, 0);
+  background-color: #EFEFEF;
+  display: inline-block;
+}
+
+.node-small-weight {
+  background-image: url('./lock3.png');
+  background-position: center;
+}
+
+.node-big-weight {
+  background-image: url('./lock5.png');
+  background-position: center;
+}
+
+.node-wall {
+  background-color: #141414;
+}
+
+.node-finish {
+    background-color: red;
+}
+  
+.node-start {
+    background-color: green;
+}
+
+.node-visited {
+  animation-name: visitedAnimation;
+  animation-duration: .4s;
+  animation-timing-function: ease-out;
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+}
+
+@keyframes visitedAnimation {
+  0% {
+    transform: scale(1.2);
+    background-color: #34D1BF;
+  }
+
+  100% {
+    transform: scale(1);
+    background-color: #3454D1;
+  }
+}
+
+.node-looked-at {
+  animation-name: lookedAtAnimation;
+  animation-duration: 0.1s;
+  animation-timing-function: ease-out;
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running; 
+  background-color: #34D1BF;
+}
+
+.node-shortest-path {
+  animation-name: shortestPath;
+  animation-duration: .4s;
+  animation-timing-function: ease-out;
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  background-color: #F06449;
+}
+  
+@keyframes shortestPath {
+  0% {
+    transform: scale(1.2);
+    background-color: #3454D1;
+  }
+
+  100% {
+    transform: scale(1);  
+    background-color: #F06449;
+  }
+}
